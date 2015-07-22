@@ -6,5 +6,5 @@ docker build -t smithjw/frank-bot:$BUILDKITE_COMMIT .
 docker run -e HUBOT_SLACK_TOKEN=xoxb-7834657472-32TecFyNwzjI9UcsMgoTrz3I -d smithjw/frank-bot:$BUILDKITE_COMMIT
 
 # Tag image with current branch name and push when specs are green
-# docker tag -f smithjw/frank-bot:$BUILDKITE_COMMIT smithjw/frank-bot:$BUILDKITE_BRANCH
-# docker push smithjw/frank-bot:$BUILDKITE_BRANCH
+docker tag -f smithjw/frank-bot:$BUILDKITE_COMMIT smithjw/frank-bot:$BUILDKITE_BRANCH
+docker push smithjw/frank-bot:$BUILDKITE_BRANCH

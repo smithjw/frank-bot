@@ -44,8 +44,5 @@ ADD hubot/external-scripts.json /hubot/
 ADD hubot/scripts /hubot/scripts/
 
 # And go
-CMD aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
-CMD aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
-CMD aws configure set default.region ap-southeast-2
 CMD ["/bin/sh", "-c", "aws s3 cp --region ap-southeast-2 s3://bot-creds/frank/env.sh .; . ./env.sh; bin/hubot --adapter slack"]
 # CMD bin/hubot -a slack

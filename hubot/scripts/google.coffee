@@ -19,7 +19,7 @@ module.exports = (robot) ->
       msg.send url
 
 googleMe = (msg, query, cb) ->
-  msg.http('http://www.google.com/search')
+  msg.http('http://www.google.com/')
     .query(q: query)
     .get() (err, res, body) ->
       cb body.match(/class="r"><a href="\/url\#q=([^"]*)(&amp;sa.*)">/)?[1] || "Sorry, Google had zero results for '#{query}'"

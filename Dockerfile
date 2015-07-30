@@ -37,6 +37,7 @@ RUN npm install hubot-youtube --save && npm install
 RUN npm install hubot-cheers --save && npm install
 RUN npm install hubot-scripts --save && npm install
 RUN npm install hubot-google --save && npm install
+RUN npm install hubot-s3-brain --save && npm install
 
 # Activate some built-in scripts
 RUN npm install cheerio --save && npm install

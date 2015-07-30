@@ -1,1 +1,23 @@
-["beerme.coffee"]
+[
+  "ackbar.coffee",
+  "advice.coffee",
+  "applause.coffee",
+  "beerme.coffee",
+  "buscemi.coffee",
+  "catfacts.coffee",
+  "coin.coffee",
+  "corgime.coffee",
+  "cowsay.coffee",
+  "dice.coffee",
+  "dilbert.coffee",
+  "eight-ball.coffee",
+  "encourage.coffee",
+  "faceup.coffee",
+  "ferengi_rules_of_acquisition.coffee",
+  "futurama.coffee",
+  "kittens.coffee",
+  "play.coffee",
+  "sloth-me.coffee",
+  "xkcd.coffee",
+  "zen.coffee"
+]

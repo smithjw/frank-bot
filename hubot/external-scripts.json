@@ -12,5 +12,6 @@
   "hubot-auth",
   "hubot-alias",
   "hubot-cheers",
+  "hubot-s3-brain",
   "hubot-google"
 ]
